@@ -3,16 +3,122 @@
     <head>
         <title>index</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+         header{
+           color: rgb(19, 20, 19);
+           text-shadow: 6px 6px 6px; 
+           background-color: rgb(235, 94, 13);
+           margin: 10px
+               
+            }
+            /*nav{
+                color:azure;
+                text-shadow: 6px 6px 6px;
+                background-color: rgb(133, 216, 144);              
+                margin: 12px;
+             }*/
+             .rash{
+                margin-right: 16px;
+                text-shadow: 10px 10px 10px;
+                color: black;
+             }
+             .info{
+                color: rgb(12, 1, 7);
+                padding: 8px;
+             }
+             .font-awesome i{
+                border-radius: 100px;
+                height: 30px;
+                width: 30px;
+                color: blue;
+                box-shadow: 10px 7px 8px black;
+                background-color: aquamarine;
+                align-items: center;
+                justify-content: center;
+                display: inline-flex;
+             }
+             iframe{
+                background-image: url(back.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 8px;
+             }
+             .icon{
+
+                margin-left: 20px;
+             }
+             footer span{
+                border-radius: 100px;
+                height: 30px;
+                width: 30px;
+                color: rgb(46, 8, 216);
+                box-shadow: 10px 7px 8px black;
+                background-color: rgb(14, 224, 109);
+                align-items: center;
+                justify-content: center;
+                display: inline-flex;
+             }
+             marquee{
+                background-color: aqua;
+                height: 20px;
+                width: 960px;
+             }
+             body{
+                background-image: url(body.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+             }
+        </style>
     </head>
     <body>
-        <i class="fa fa-user" aria-hidden="true">mohit sharma</i>&nbsp;&nbsp;
-        <i class="fa fa-phone" aria-hidden="true">7885674899</i>&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true">mohitsharma@gmail.com</i><br>
-        <iframe width="900" height="500" ></iframe><br>
-        <strong>follow me</strong>&nbsp;&nbsp;
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;
-        <i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;
-        <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;
-        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    <header>
+        <span class="font-awesome">
+            <i class="fa fa-user" aria-hidden="true"></i><span class="info">Rashmi R. Jadhav</span>
+        </span>
+        <span class="font-awesome">
+        <i class="fa fa-phone" aria-hidden="true"></i><span class="info">7887782727</span>
+        </span>
+        <span class="font-awesome">
+            <a href="https://accounts.google.com/" target="_blank">
+        <i class="fa fa-envelope" aria-hidden="true"></i></a><span class="info">rashmijadhav272@gmail.com</span>
+        </span>
+        <br>
+    </header>
+        <nav>
+            
+            <a class="rash" href="home.html" target="fframe"><strong>Home</strong></a>
+
+            <a class="rash" href="techStack.html" target="fframe"><strong>TechStack</strong></a>
+            
+            <a class="rash" href="education.html" target="fframe"><strong>Education</strong></a>
+            
+            <a class="rash" href="hobbies.html" target="fframe"><strong>Hobbies</strong></a>
+        
+            <a class="rash" href="personal.html" target="fframe"><strong>Personsl</strong></a>
+
+            <a class="rash" href="contact.html" target="fframe"><strong>Contact</strong></a>
+        
+        </nav>
+        <iframe width="950" height="520" name="fframe" src="home.html" ></iframe>
+        <marquee><strong>CODEMIND TECHNOLOGY</strong></marquee>
+    <footer>
+        <strong>follow me</strong>
+        <span class="icon">
+        <a href="https://in.linkedin.com/" target="_blank">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </span>
+        <span class="icon">
+        <a href="https://www.google.com/" target="_self">
+        <i class="fa fa-google" aria-hidden="true"></i></a>
+        </span>
+        <span class="icon">
+        <a href="https://www.instagram.com/" target="_self">
+        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </span>
+        <span class="icon">
+        <a href="https://www.facebook.com/" target="_self">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </span>
+    </footer>
     </body>
 </html>
